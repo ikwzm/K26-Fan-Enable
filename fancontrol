@@ -1,0 +1,10 @@
+INTERVAL=10
+DEVPATH=hwmon2=devices/platform/pwm-fan
+DEVNAME=hwmon2=pwmfan
+FCTEMPS=hwmon2/pwm1=hwmon1/temp1_input
+MINTEMP=hwmon2/pwm1=35
+MAXTEMP=hwmon2/pwm1=55
+MINSTART=hwmon2/pwm1=110
+MINSTOP=hwmon2/pwm1=10
+MINPWM=hwmon2/pwm1=10
+MAXPWM=hwmon2/pwm1=110
